@@ -1,40 +1,51 @@
-# 🧠 JavaScript Day 7 — Funksiya
+# 🧠 JavaScript Day 6 — Functions
 
-Bu darsda men JavaScript’da funksiyalar bilan ishlashni o‘rgandim.
-Turli amaliy misollar orqali funksiyalarning qanday e’lon qilinishi va ishlash tartibini tushunib oldim.
+Bu darsda men **JavaScript’da funksiyalar bilan ishlashni** o‘rgandim.  
+Amaliy misollar orqali funksiyalarning qanday e’lon qilinishi va ishlash tartibini mustahkamlab oldim.
 
 ---
 
 ## 📚 O‘rganganlarim / What I learned
-JavaScript’da **funksiyalar** uch xil uslubda e’lon qilinadi:
 
-1️⃣ Function Declaration
+JavaScript’da funksiyalar **uch xil uslubda e’lon qilinadi**:
 
-Sintaksisi:
+### 1️⃣ Function Declaration  
+```javascript
 function name(parameters) {
     // code
 }
+```
+✔️ Funksiyani chaqirishni oldin ham, keyin ham ishlatish mumkin.
 
-2️⃣ Function Expression
+---
 
-Sintaksisi:
+### 2️⃣ Function Expression  
+```javascript
 const name = function(parameters) {
     // code
 };
+```
+✔️ Funksiya o‘zgaruvchiga tenglanadi.  
+✔️ Avval e’lon qilinishi kerak.
 
-3️⃣ Arrow Function
+---
 
-Sintaksisi:
+### 3️⃣ Arrow Function  
+```javascript
 const name = (parameters) => {
     // code
 };
+```
+✔️ Zamonaviy, ixcham va qisqa sintaksis.
 
 ---
 
 ## 💻 Kod namunasi / Example code
 
-🔢 Kiritilgan sondan 1 gacha bo‘lgan sonlar yig‘indisini hisoblovchi funksiya
-Arrow function shaklida:
+Kiritilgan sondan boshlab `1` gacha bo‘lgan sonlar yig‘indisini hisoblash:
+
+### 🔹 Arrow Function
+```javascript
 const calculateSum = (num) => {
     let result = 0;
     for (let i = num; i >= 1; i--) {
@@ -44,8 +55,10 @@ const calculateSum = (num) => {
 };
 
 console.log(calculateSum(5)); // 15
+```
 
-Function Declaration:
+### 🔹 Function Declaration
+```javascript
 function calculateSum(num) {
     let result = 0;
     for (let i = num; i >= 1; i--) {
@@ -55,8 +68,10 @@ function calculateSum(num) {
 }
 
 console.log(calculateSum(5)); // 15
+```
 
-Function Expression:
+### 🔹 Function Expression
+```javascript
 const calculateSum = function(num) {
     let result = 0;
     for (let i = num; i >= 1; i--) {
@@ -66,34 +81,31 @@ const calculateSum = function(num) {
 };
 
 console.log(calculateSum(5)); // 15
-
+```
 
 ---
 
-🧩 Qisqacha nazariya / Short Theory
+## 🧩 Qisqacha nazariya / Short Theory
 
-🔹 Funksiya — kod blokini qayta–qayta chaqirib ishlatish imkonini beradi.
-🔹 Parametrlar orqali funksiyaga qiymatlar uzatish mumkin.
-🔹 Return funksiyadan qiymat qaytaradi.
-🔹 Bitta funksiyani uch xil uslubda yozish mumkin:
+- Funksiya — qayta ishlatiladigan kod bloki.
+- Parametrlar orqali funksiya ichiga qiymat uzatish mumkin.
+- `return` funksiyadan natija qaytaradi.
+- JavaScript’da funksiyalarni 3 xil uslubda yozish mumkin:
+  - Function Declaration  
+  - Function Expression  
+  - Arrow Function
 
-Function Declaration
+---
 
-Function Expression
+## 🎯 Maqsad / Goal
 
-Arrow Function
+- Funksiyalarning qanday ishlashini o‘rganish  
+- Ularni real misollarda qo‘llash  
+- Uch xil yozilish uslubida funksiyalarni amalda sinab ko‘rish
 
+---
 
+## 💬 Muallif / Author
 
-🎯 Maqsad / Goal
-
-JavaScript’da funksiyalarning qanday ishlashini tushunish
-
-Har uch uslubni amaliyotda sinab ko‘rish
-
-Real masalalarda funksiyalardan foydalanish orqali tajriba oshirish
-
-💬 Muallif / Author
-
-✍️ Shokhjahon Qalandarov
-📅 Dars: 7-kun — Funksiya
+✍️ Shokhjahon Qalandarov  
+📅 Dars: 6-kun — Functions
