@@ -1,4 +1,4 @@
-# 🧠 JavaScript Day 6 — Functions
+# 🧠 JavaScript Day 7 — Functions
 
 Bu darsda men **JavaScript’da funksiyalar bilan ishlashni** o‘rgandim.  
 Amaliy misollar orqali funksiyalarning qanday e’lon qilinishi va ishlash tartibini mustahkamlab oldim.
@@ -108,4 +108,4 @@ console.log(calculateSum(5)); // 15
 ## 💬 Muallif / Author
 
 ✍️ Shokhjahon Qalandarov  
-📅 Dars: 6-kun — Functions
+📅 Dars: 7-kun — Functions
